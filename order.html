@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order | Mivatcha</title>
+    <link rel="icon" href="images/Logo Kaligrafi Sage “mivatcha”.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+  href="https://fonts.googleapis.com/css?family=lancelot">
+</head>
+<body>
+    <!-- header -->
+<header class="header">
+    <div class="logo-container">
+        <img src="images/Logo Kaligrafi Sage “mivatcha”.png" alt="Logo Mivatcha" class="logo-img">
+        <h1>Mivatcha</h1>
+        <p>Pick Your Matcha, Pick Your Mood</p>
+    </div>
+
+    <div class="navigasi">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="order.html">Order</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+</header>
+<!-- sidebar -->
+<aside class="sidebar">
+    
+    <h2>More Information</h2>
+
+    <div class="clock-widget">
+        <h3>Local Time</h3>
+        <p id="digital-clock">00:00:00</p>
+    </div>
+
+    <div class="opening-hours">
+        <h3>Opening Hours</h3>
+        <p>Monday-Sunday</p>
+        <p>10.00 AM - 10.00 PM</p>
+    </div>
+
+    <div class="youtube-video">
+        <h3>Watch & Enjoy</h3>
+    </div>
+</aside>
+
+<main class="main-content">
+    <section class="registration-section">
+        <h1>Place Your Order</h1>
+        <p>Craving something matcha? Fill in the form below and enjoy your favorite Mivatcha treats!</p>
+        <form class="order-form" action="#" method="post">
+            <div class="form-group">
+                <label for="fullname">Full Name</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="phone" id="phone" name="fullname" placeholder="Enter your phone number" required>
+            </div>
+
+            <div class="form-group">
+                <label for="menu">Select Your Menu</label>
+                <input type="text" id="menu" name="menu" placeholder="Enter your chosen Mivatcha menu" required>
+            </div>
+
+            <div class="form-group">
+                <label for="quantity">Quantity</label>
+                <input type="number" id="quantity" name="quantity" min="1" value="1" required>
+            </div>
+
+            <div class="form-group">
+                <label for="order-type">Order Type</label>
+                <select id="order-type" name="order-type" required>
+                    <option value="">Choose order type</option>
+                    <option value="dine-in">Dine In</option>
+                    <option value="take-away">Take Away</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="request">Spesial Request</label>
+                <textarea id="request" name="request" rows="4" placeholder="Any special request? (Optional)"></textarea>
+            </div>
+
+            <button type="submit">Submit Order</button>
+        </form>
+    </section>
+</main>
+
+<!-- footer -->
+ <footer>
+    <div class="footer-content">
+        <h2>Mivatcha</h2>
+        <p>Pick Your Matcha, Pick Your Mood.</p>
+        <p>Website: www.mivatcha.com</p>
+        <p>Follow us on Instagram: @mivatcha</p>
+        <p>&copy; 2026 Mivatcha. All Rights Reserved.</p>
+    </div>
+</footer>
+</body>
+</html>
